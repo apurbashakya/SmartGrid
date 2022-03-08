@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>{title}</h1>
+      <NavigationBar></NavigationBar> 
       <div className="App Content">
         <Home></Home>
         <h1></h1>
