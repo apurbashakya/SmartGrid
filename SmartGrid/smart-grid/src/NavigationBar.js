@@ -1,7 +1,7 @@
 const NavigationBar = () => {
     return (
         <nav className="NavigationBar">
-            <h1>ELCON</h1>
+            ELCON
             <div className="links">
                 <a href="/" style={{
                     color:"white",
