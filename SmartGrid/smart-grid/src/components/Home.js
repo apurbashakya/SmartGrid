@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Analysis from "./Analysis";
+import Button from 'react-bootstrap/Button';
 
 const Home = () => {
   const homeClick = () => {
@@ -15,10 +16,10 @@ const Home = () => {
 
       <br />
       <div>
-        <button onClick={toggleImage}>Analysis</button>
-        <button>Appliances</button>
-        <button>Savings</button>
-        <button>Language</button>
+        {<Button onClick={toggleImage} variant="outline-primary">Analysis</Button>}
+        {<Button onClick={toggleImage} variant="outline-warning">Appliances</Button>}
+        {<Button onClick={toggleImage} variant="outline-danger">Savings</Button>}
+        {<Button onClick={toggleImage} variant="outline-success">Language</Button>}
       </div>
       <div>{toggled && <Analysis></Analysis>}</div>
     </div>
