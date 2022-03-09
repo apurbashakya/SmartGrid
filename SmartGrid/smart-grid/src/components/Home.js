@@ -28,7 +28,7 @@ const Home = () => {
           </Col>
           <Col>
             <Button variant="outline-warning">
-              Appliances
+              Predictor
             </Button>
           </Col>
           <Col>
