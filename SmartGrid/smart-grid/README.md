@@ -1,6 +1,7 @@
+
 # ELCON- Smart Energy Conservation
 
-We aim to use *predictive analytics* to output expected electricity usage and with the help of *smart home integration*, the resources using maximum amount of energy, which indeed is saving a lot of electricity and power consumpttion. 
+We aim to use **predictive analytics** to output expected electricity usage and with the help of **smart home integration**, the resources using maximum amount of energy, which indeed is saving a lot of electricity and power consumpttion. 
 
 
 ## Screenshots
@@ -13,40 +14,40 @@ We aim to use *predictive analytics* to output expected electricity usage and wi
 
 ## Description
 
-We’ll develop a *real-time automatic notification alert web based system*  for saving electricity.Along with a daily, monthly and yearly analysis of data about electricity usage. We aim to use predictive analytics to output expected electricity usage and with the help of smart home integration, the resources using maximum amount of energy. This system can also interpret whether the house is empty with the number of mobile devices connected to the home wifi and accordingly minimize the use of non essential appliances.The adaption is supported by *enabling regional languages over standardized english* to increase adoption and using pictorial representation for easier understanding of collected data. The flagship feature enables electricity cost estimation for the current cycle and *minimizing phantom electricity* use, *saving costs by around 6 %.*
+We’ll develop a **real-time automatic notification alert web based system**  for saving electricity.Along with a daily, monthly and yearly analysis of data about electricity usage. We aim to use predictive analytics to output expected electricity usage and with the help of smart home integration, the resources using maximum amount of energy. This system can also interpret whether the house is empty with the number of mobile devices connected to the home wifi and accordingly minimize the use of non essential appliances.The adaption is supported by **enabling regional languages over standardized english** to increase adoption and using pictorial representation for easier understanding of collected data. The flagship feature enables electricity cost estimation for the current cycle and **minimizing phantom electricity** use, **saving costs by around 6 %.**
 
 ## Tech Stack
 
-*Client:* HTML, CSS, JavaScript, React-Bootstrap
+**Client:** HTML, CSS, JavaScript, React-Bootstrap
 
-*Server:* Python, Node, Scikit-learn
+**Server:** Python, Node, Scikit-learn
 
 
 ## Installation
 To Run this project on your local system clone the main directory
 
-bash
+```bash
   git clone https://github.com/apurbashakya/SmartGrid.git
-
+```
 
 change directory to the smart-grid
-bash
+```bash
   cd SmartGrid/SmartGrid/smart-grid
-
+```
 
 Install my-project with npm
 
-bash
+```bash
   npm install
-
+```
     
 ## Deployment
 
 Run npm start command
 
-bash
+```bash
   npm start
-
+```
 
 
 ## Features
