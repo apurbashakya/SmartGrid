@@ -1,15 +1,14 @@
-
 # ELCON- Smart Energy Conservation
+![Logo](https://github.com/apurbashakya/SmartGrid/blob/main/SmartGrid/smart-grid/src/img/logodark.jpeg)
 
 We aim to use **predictive analytics** to output expected electricity usage and with the help of **smart home integration**, the resources using maximum amount of energy, which indeed is saving a lot of electricity and power consumpttion. 
 
 
 ## Screenshots
 
-![](img/logodark.jpeg)
-![](img/pre1.png)
+![]((https://github.com/apurbashakya/SmartGrid/blob/main/SmartGrid/smart-grid/src/img/pre1.png)
 
-![Logo](https://github.com/apurbashakya/SmartGrid/blob/main/SmartGrid/smart-grid/src/img/logodark.jpeg)
+
 
 
 ## Description
