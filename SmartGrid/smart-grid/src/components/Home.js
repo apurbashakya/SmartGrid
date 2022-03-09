@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Analysis from "./Analysis";
+import Community from "./Community";
 import Button from "react-bootstrap/Button";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -9,6 +10,9 @@ const Home = () => {
 
   /* Define a function that toggles the visibility of the image */
   const toggleImage = () => setToggled(!toggled);
+  //community
+  const [toggledCommunity, setToggledCommunity] = useState(false);
+  const toggleCommunity = () => setToggledCommunity(!toggledCommunity);
 
   return (
     <>
@@ -25,8 +29,8 @@ const Home = () => {
             </Button>
           </Col>
           <Col>
-            <Button variant="outline-danger">
-              Savings
+            <Button onClick={toggleCommunity} variant="outline-danger">
+            Community
             </Button>
           </Col>
           <Col>
@@ -37,6 +41,7 @@ const Home = () => {
         </Row>
         <Row>
         {toggled && <Analysis></Analysis>}
+        {toggledCommunity && <Community></Community>}
         </Row>
       </Container>
     </>
