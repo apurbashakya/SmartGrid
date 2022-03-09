@@ -5,47 +5,54 @@ import Button from "react-bootstrap/Button";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Home = () => {
-  const [toggled, setToggled] = useState(false);
+  /* Define a function that toggles the visibility of the Analysis */
+  const [toggledAnalysis, setAnalysis] = useState(true);
+  const toggleAnalysis = () => setAnalysis(!toggledAnalysis);
+  /* Define a function that toggles the visibility of the Community Button */
+  const [toggledCommunity, setCommunity] = useState(false);
+  const toggleCommunity = () => setCommunity(!toggledCommunity);
+  //Functions to make other options False
+  const communityFalse = () => setCommunity(false);
+  const analysisFalse = () => setAnalysis(false);
 
-  /* Define a function that toggles the visibility of the image */
-  const toggleImage = () => setToggled(!toggled);
-  let button;
-  if(toggled) {
-    button = <Analysis />;
+  let Analyse;
+  if (toggledAnalysis) {
+    Analyse = <Analysis />;
   }
-  //community
-  const [toggledCommunity, setToggledCommunity] = useState(false);
-  const toggleCommunity = () => setToggledCommunity(!toggledCommunity);
 
   return (
     <>
       <Container fluid="md">
         <Row className="justify-content-md-center">
           <Col>
-            <Button onClick={toggleImage} variant="outline-primary">
+            <Button
+              onClick={() => {
+                toggleAnalysis();
+                communityFalse();
+              }}
+              variant="outline-primary"
+            >
               Analysis
             </Button>
           </Col>
           <Col>
-            <Button variant="outline-warning">
-              Predictor
+            <Button variant="outline-warning">Predictor</Button>
+          </Col>
+          <Col>
+            <Button onClick={() => {
+                toggleCommunity();
+                analysisFalse();
+              }} variant="outline-danger">
+              Community
             </Button>
           </Col>
           <Col>
-            <Button onClick={toggleCommunity} variant="outline-danger">
-            Community
-            </Button>
-          </Col>
-          <Col>
-            <Button  variant="outline-success">
-              Language
-            </Button>
+            <Button variant="outline-success">Language</Button>
           </Col>
         </Row>
         <Row>
-        {button}
-        {toggled && <Analysis></Analysis>}
-        {toggledCommunity && <Community></Community>}
+          {Analyse}
+          {toggledCommunity && <Community></Community>}
         </Row>
       </Container>
     </>

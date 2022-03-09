@@ -6,7 +6,7 @@ const NavigationBar = () => {
       <Navbar bg="dark" variant="dark" sticky="top">
         <Container>
           <Navbar.Brand href="#home">
-            <img src={require("./logo.png")} width="140" height="80" alt="" />
+            <img src={require("./img/logo.png")} width="140" height="80" alt="" />
           </Navbar.Brand>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">

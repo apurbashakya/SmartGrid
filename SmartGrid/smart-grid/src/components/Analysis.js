@@ -14,32 +14,17 @@ const Analysis = () => {
         <Row className="justify-content-md-center">
           <Col>
             <br></br>
-            <Image src={require("../output.png")} fluid></Image>
+            <Image src={require("../img/output.png")} fluid></Image>
           </Col>
           <Col>
-            <div>
-              {/* <Button>Appliances</Button> */}
-            </div>
+            <br></br>
+            <Image src={require("../img/Day.png")} fluid></Image>
           </Col>
-          {/* <Col>
-            <Button variant="outline-warning">Appliances</Button>
-          </Col>
-          <Col>
-            <Button variant="outline-danger">Savings</Button>
-          </Col>
-          <Col>
-            <Button variant="outline-success">Language</Button>
-          </Col> */}
         </Row>
-        <Row>{/* {toggled && <Analysis></Analysis>} */}</Row>
+        <Row>
+            {/* <Button></Button> */}
+        </Row>
       </Container>
-      {/* <div className="align-self-center">
-        <br></br> */}
-      {/* <Button onClick={Day} variant="outline-primary">
-          Day
-        </Button> */}
-      {/* <Image src={require("../output.png")} fluid></Image> */}
-      {/* </div> */}
     </>
   );
 };
