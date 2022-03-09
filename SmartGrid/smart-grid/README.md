@@ -6,7 +6,7 @@ We aim to use **predictive analytics** to output expected electricity usage and 
 
 ## Screenshots
 
-![]((https://github.com/apurbashakya/SmartGrid/blob/main/SmartGrid/smart-grid/src/img/pre1.png)
+![Logo]((https://github.com/apurbashakya/SmartGrid/blob/main/SmartGrid/smart-grid/src/img/pre1.png)
 
 
 
