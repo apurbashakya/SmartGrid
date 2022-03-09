@@ -1,16 +1,21 @@
-import logo from './logo.svg';
-import NavigationBar from './NavigationBar';
-import Home from './components/Home';
+import NavigationBar from "./NavigationBar";
+import Home from "./components/Home";
+import { Row, Container } from "react-bootstrap";
 function App() {
-  const title = "Smart Grid";
   return (
-    <div className="App">
-      {/* <h1>{title}</h1> */}
-      <NavigationBar></NavigationBar>
-      <div className="App Content">
-      <Home></Home>
-      </div>
-    </div>
+    <>
+      <Container fluid>
+        <Row>
+          <NavigationBar></NavigationBar>
+        </Row>
+      </Container>
+      <Container>
+        <br></br>
+        <Row>
+          <Home></Home>
+        </Row>
+      </Container>
+    </>
   );
 }
 

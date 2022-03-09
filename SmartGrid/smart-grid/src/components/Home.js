@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <>
-      <Container fluid>
+      <Container fluid="md">
         <Row className="justify-content-md-center">
           <Col>
             <Button onClick={toggleImage} variant="outline-primary">
