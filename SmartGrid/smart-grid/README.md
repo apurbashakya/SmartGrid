@@ -9,7 +9,7 @@ We aim to use **predictive analytics** to output expected electricity usage and 
 ![](img/logodark.jpeg)
 ![](img/pre1.png)
 
-![Logo](dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](https://github.com/apurbashakya/SmartGrid/blob/main/SmartGrid/smart-grid/src/img/logodark.jpeg)
 
 
 ## Description
