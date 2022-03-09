@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# ELCON- Smart Energy Conservation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We aim to use *predictive analytics* to output expected electricity usage and with the help of *smart home integration*, the resources using maximum amount of energy, which indeed is saving a lot of electricity and power consumpttion. 
 
-## Available Scripts
 
-In the project directory, you can run:
+## Screenshots
 
-### `npm start`
+![](img/logodark.jpeg)
+![](img/pre1.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Logo](dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We’ll develop a *real-time automatic notification alert web based system*  for saving electricity.Along with a daily, monthly and yearly analysis of data about electricity usage. We aim to use predictive analytics to output expected electricity usage and with the help of smart home integration, the resources using maximum amount of energy. This system can also interpret whether the house is empty with the number of mobile devices connected to the home wifi and accordingly minimize the use of non essential appliances.The adaption is supported by *enabling regional languages over standardized english* to increase adoption and using pictorial representation for easier understanding of collected data. The flagship feature enables electricity cost estimation for the current cycle and *minimizing phantom electricity* use, *saving costs by around 6 %.*
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*Client:* HTML, CSS, JavaScript, React-Bootstrap
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*Server:* Python, Node, Scikit-learn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Installation
+To Run this project on your local system clone the main directory
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+  git clone https://github.com/apurbashakya/SmartGrid.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+change directory to the smart-grid
+bash
+  cd SmartGrid/SmartGrid/smart-grid
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Install my-project with npm
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+  npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    
+## Deployment
 
-### Code Splitting
+Run npm start command
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
+  npm start
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+-  Automatic notification alert to reduce wastage of power
+- Expected electricity usage using smart home integration
+- Special regional languages support 
+-  Minimizing phantom electricity use and saving costs by around 6 %
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Roadmap
 
-### Deployment
+- Additional browser support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Add home integrations
+- Further optimizing machine learning model
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🚀 About us
+- Jaskaran singh jaggi
+- Ujjwal Verma
+- Apurba Shakya
+- Anurag Garg
+- Tanvi
+
+## 🔗 Links
+- Jaskaran Singh Jaggi
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaskaran-s-a137aa104/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/in/jaskaran-s-a137aa104)
+- Ujjwal Verma
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ujjwal01/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ujjwal_verma01
+)
+
+- Apurba Shakya
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+
+- Anurag Garg
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anuraggarg01/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/anurag_garg01)
+
+
+ - Tanvi
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+
+
+## Support
+
+For support, join our discord channel or reddit page.
+
+- [@Discord](https://discord.gg/ZuF9Q9Kb)
+- [@Reddit](https://reddit.com/elcon_energy)
