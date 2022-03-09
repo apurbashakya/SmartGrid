@@ -38,7 +38,7 @@ const Home = () => {
     <>
       <Container fluid="md">
         <Row className="justify-content-md-center">
-          <Col>
+          <Col xs={12} sm={3} md={3}>
             <Button
               onClick={() => {
                 toggleAnalysis();
@@ -50,7 +50,7 @@ const Home = () => {
               Analysis
             </Button>
           </Col>
-          <Col>
+          <Col xs={12} sm={3} md={3}>
             <Button
               onClick={() => {
                 togglePredictor();
@@ -62,7 +62,7 @@ const Home = () => {
               Predictor
             </Button>
           </Col>
-          <Col>
+          <Col xs={12} sm={3} md={3}>
             <Button
               onClick={() => {
                 toggleCommunity();
@@ -74,7 +74,7 @@ const Home = () => {
               Community
             </Button>
           </Col>
-          <Col>
+          <Col xs={12} sm={3} md={3}>
             <Button variant="outline-success">Language</Button>
           </Col>
         </Row>

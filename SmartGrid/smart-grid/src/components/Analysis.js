@@ -11,6 +11,12 @@ const Analysis = () => {
   return (
     <>
       <Container fluid="md">
+      <Row className="justify-content-md-center">
+          <Col xs={12} sm={4} md={4}>
+            <br></br>
+            <Image src={require("../img/Yearly.png")} fluid></Image>
+          </Col>
+        </Row>
         <Row className="justify-content-md-center">
           <Col>
             <br></br>
@@ -21,12 +27,6 @@ const Analysis = () => {
           <Col>
             <br></br>
             <Image src={require("../img/Daily.png")} fluid></Image>
-          </Col>
-        </Row>
-        <Row className="justify-content-md-center">
-          <Col>
-            <br></br>
-            <Image src={require("../img/Yearly.png")} fluid></Image>
           </Col>
         </Row>
       </Container>
