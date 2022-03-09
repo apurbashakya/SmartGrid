@@ -20,6 +20,11 @@ const Home = () => {
     Analyse = <Analysis />;
   }
 
+  let communityButton;
+  if (toggledCommunity) {
+    communityButton = <Community />;
+  }
+
   return (
     <>
       <Container fluid="md">
@@ -52,7 +57,7 @@ const Home = () => {
         </Row>
         <Row>
           {Analyse}
-          {toggledCommunity && <Community></Community>}
+          {communityButton}
         </Row>
       </Container>
     </>

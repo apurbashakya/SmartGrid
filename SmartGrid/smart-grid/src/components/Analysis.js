@@ -5,25 +5,23 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 const Analysis = () => {
   const [day, setDay] = useState(false);
 
-  /* Define a function that toggles the visibility of the image */
+  /* Define a function that toggles the visibility of the Day */
   const Day = () => setDay(!day);
 
   return (
     <>
       <Container fluid="md">
         <Row className="justify-content-md-center">
-          <Col>
+          {/* <Col>
             <br></br>
             <Image src={require("../img/output.png")} fluid></Image>
-          </Col>
+          </Col> */}
           <Col>
             <br></br>
             <Image src={require("../img/Day.png")} fluid></Image>
           </Col>
         </Row>
-        <Row>
-            {/* <Button></Button> */}
-        </Row>
+        <Row></Row>
       </Container>
     </>
   );
