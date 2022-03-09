@@ -20,6 +20,7 @@ const Community = () => {
   const renderCard = (card, index) => {
     return (
       <div>
+        <br></br>
         <Card style={{ width: "13rem" }} key={index} className="box">
           <Card.Body>
             <Card.Title>{card.title}</Card.Title>
