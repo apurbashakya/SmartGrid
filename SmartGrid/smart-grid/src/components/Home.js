@@ -4,11 +4,14 @@ import Button from "react-bootstrap/Button";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Home = () => {
-  // const homeClick = () => {};
   const [toggled, setToggled] = useState(false);
 
   /* Define a function that toggles the visibility of the image */
   const toggleImage = () => setToggled(!toggled);
+  let button;
+  if(toggled) {
+    button = <Analysis />;
+  }
 
   return (
     <>
@@ -36,22 +39,10 @@ const Home = () => {
           </Col>
         </Row>
         <Row>
-        {toggled && <Analysis></Analysis>}
+        {button}
         </Row>
       </Container>
     </>
-    // <div className="Home">
-    //   <h2>DASHBOARD</h2>
-
-    //   <br />
-    //   <div>
-    //     {<Button onClick={toggleImage} variant="outline-primary">Analysis</Button>}
-    //     {<Button onClick={toggleImage} variant="outline-warning">Appliances</Button>}
-    //     {<Button onClick={toggleImage} variant="outline-danger">Savings</Button>}
-    //     {<Button onClick={toggleImage} variant="outline-success">Language</Button>}
-    //   </div>
-    //   <div>{toggled && <Analysis></Analysis>}</div>
-    // </div>
   );
 };
 
