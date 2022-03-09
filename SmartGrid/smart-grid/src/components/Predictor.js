@@ -4,30 +4,39 @@ import Gallery from "react-grid-gallery";
 
 const IMAGES = [
   {
-    src: require("../img/Day.png"),
-    thumbnail: require("../img/Day.png"),
+    src: require("../img/pre1.png"),
+    thumbnail: require("../img/pre1.png"),
     thumbnailWidth: 320,
     thumbnailHeight: 174,
     caption: "After Rain (Jeshu John - designerspics.com)",
   },
   {
-    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-    thumbnail:
-      "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
+    src: require("../img/sgd_basic.png"),
+    thumbnail: require("../img/sgd_basic.png"),
     thumbnailWidth: 320,
     thumbnailHeight: 212,
-    tags: [
-      { value: "Ocean", title: "Ocean" },
-      { value: "People", title: "People" },
-    ],
-    caption: "Boats (Jeshu John - designerspics.com)",
+    tags: [{ value: "Chart", title: "Chart" }],
+    caption: "",
+  },
+  {
+    src: require("../img/sgd_better.png"),
+    thumbnail: require("../img/sgd_better.png"),
+    thumbnailWidth: 320,
+    thumbnailHeight: 174,
+    caption: "",
+  },
+  {
+    src: require("../img/sgd_optimizing_number_of_days.png"),
+    thumbnail: require("../img/sgd_optimizing_number_of_days.png"),
+    thumbnailWidth: 320,
+    thumbnailHeight: 174,
+    caption: "",
   },
 ];
 
 const Predictor = () => {
   return (
     <>
-      <br></br>
       <Gallery
         images={IMAGES}
         enableLightbox={true}

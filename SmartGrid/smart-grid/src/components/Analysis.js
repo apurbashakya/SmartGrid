@@ -12,16 +12,23 @@ const Analysis = () => {
     <>
       <Container fluid="md">
         <Row className="justify-content-md-center">
-          {/* <Col>
-            <br></br>
-            <Image src={require("../img/output.png")} fluid></Image>
-          </Col> */}
           <Col>
             <br></br>
-            <Image src={require("../img/Day.png")} fluid></Image>
+            <Image src={require("../img/Monthly.png")} fluid></Image>
           </Col>
         </Row>
-        <Row></Row>
+        <Row className="justify-content-md-center">
+          <Col>
+            <br></br>
+            <Image src={require("../img/Daily.png")} fluid></Image>
+          </Col>
+        </Row>
+        <Row className="justify-content-md-center">
+          <Col>
+            <br></br>
+            <Image src={require("../img/Yearly.png")} fluid></Image>
+          </Col>
+        </Row>
       </Container>
     </>
   );
