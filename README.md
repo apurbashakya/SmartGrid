@@ -17,9 +17,9 @@ We’ll develop a **real-time automatic notification alert web based system**  f
 
 ## Tech Stack
 
-**Client:** HTML, CSS, JavaScript, React-Bootstrap
+**Frontend:** HTML, CSS, JavaScript, React-Bootstrap
 
-**Server:** Python, Node, Scikit-learn
+**Backend:** Python, Node, Scikit-learn
 
 
 ## Installation
