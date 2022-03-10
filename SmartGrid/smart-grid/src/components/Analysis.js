@@ -41,14 +41,14 @@ const Analysis = () => {
         <Row className="justify-content-md-center">
           <br></br>
           <Button
-            variant="success"
+            variant="primary"
             onClick={() => {
-              toggleDay();
-              yearFalse();
+              toggleYear();
               monthFalse();
+              dayFalse();
             }}
           >
-            Daily
+            Yearly
           </Button>
 
           <br></br>
@@ -62,17 +62,16 @@ const Analysis = () => {
           >
             Monthly
           </Button>
-
           <br></br>
           <Button
-            variant="primary"
+            variant="success"
             onClick={() => {
-              toggleYear();
+              toggleDay();
+              yearFalse();
               monthFalse();
-              dayFalse();
             }}
           >
-            Yearly
+            Daily
           </Button>
         </Row>
         <Row>
