@@ -5,6 +5,7 @@ const Annually = () => {
   return (
     <Row className="justify-content-md-center">
       <Col xs={12} sm={12} md={4}>
+        <br></br>
         <Image src={require("../img/Yearly.png")} fluid></Image>
       </Col>
     </Row>

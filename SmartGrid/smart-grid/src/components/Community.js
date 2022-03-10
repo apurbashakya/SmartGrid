@@ -6,14 +6,20 @@ const Community = () => {
       image:
         "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.0kj7XPF_bdTVCg7IFuPR-gHaFV%26pid%3DApi&f=1",
       title: "Discord",
-      link: <a href="https://discord.gg/ZuF9Q9Kb">JOIN US ON DISCORD</a>,
+      link: (
+        <a href="https://discord.gg/ZuF9Q9Kb" target="_blank">
+          JOIN US ON DISCORD
+        </a>
+      ),
     },
     {
       image:
         "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.8CqhYk-Xsj377uERoYrMCgHaEK%26pid%3DApi&f=1",
       title: "Reddit",
       link: (
-        <a href="https://www.reddit.com/r/Elcon_Energy/">JOIN US ON REDDIT</a>
+        <a href="https://www.reddit.com/r/Elcon_Energy/" target="_blank">
+          JOIN US ON REDDIT
+        </a>
       ),
     },
   ];

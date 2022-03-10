@@ -36,45 +36,51 @@ const Analysis = () => {
 
   return (
     <>
-      <Container fluid="md">
+      <Container>
+        <br></br>
         <Row className="justify-content-md-center">
-          <Col xs={12} sm={4} md={4}>
-            <Button
-              variant="outline-primary"
-              onClick={() => {
-                toggleDay();
-                yearFalse();
-                monthFalse();
-              }}
-            >
-              Daily
-            </Button>
-          </Col>
-          <Col xs={12} sm={4} md={4}>
-            <Button
-              variant="outline-primary"
-              onClick={() => {
-                toggleMonth();
-                yearFalse();
-                dayFalse();
-              }}
-            >
-              Monthly
-            </Button>
-          </Col>
-          <Col xs={12} sm={4} md={4}>
-            <Button variant="outline-primary" onClick={() => {
-                toggleYear();
-                monthFalse();
-                dayFalse();
-              }}>Yearly</Button>
-          </Col>
+          <br></br>
+          <Button
+            variant="success"
+            onClick={() => {
+              toggleDay();
+              yearFalse();
+              monthFalse();
+            }}
+          >
+            Daily
+          </Button>
+
+          <br></br>
+          <Button
+            variant="warning"
+            onClick={() => {
+              toggleMonth();
+              yearFalse();
+              dayFalse();
+            }}
+          >
+            Monthly
+          </Button>
+
+          <br></br>
+          <Button
+            variant="primary"
+            onClick={() => {
+              toggleYear();
+              monthFalse();
+              dayFalse();
+            }}
+          >
+            Yearly
+          </Button>
         </Row>
         <Row>
           {Day}
           {Month}
           {Year}
         </Row>
+        <br></br>
       </Container>
     </>
   );

@@ -14,7 +14,7 @@ const NavigationBar = () => {
               <Nav.Link href="#pricing">Pricing</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="#contact">Contact Us</Nav.Link>
+              <Nav.Link href="https://discord.com/invite/ZuF9Q9Kb" target="_blank">Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
