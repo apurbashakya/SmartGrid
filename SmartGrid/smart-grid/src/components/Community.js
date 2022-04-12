@@ -7,7 +7,7 @@ const Community = () => {
         "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.0kj7XPF_bdTVCg7IFuPR-gHaFV%26pid%3DApi&f=1",
       title: "Discord",
       link: (
-        <a href="https://discord.gg/ZuF9Q9Kb" target="_blank">
+        <a href="https://discord.gg/DP9gxhhS" target="_blank">
           JOIN US ON DISCORD
         </a>
       ),
